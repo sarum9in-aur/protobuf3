@@ -9,9 +9,9 @@ _gtestver=1.8.0
 
 _pkgbase="protobuf"
 pkgname=('protobuf3' 'python2-protobuf3' 'python-protobuf3')
-pkgver=3.0.2
+pkgver=3.1.0
 _pkgver=$(echo $pkgver | tr _ -)
-pkgrel=4
+pkgrel=1
 pkgdesc="Protocol Buffers - Google's data interchange format"
 arch=('i686' 'x86_64')
 url='https://developers.google.com/protocol-buffers/'
@@ -23,7 +23,7 @@ source=(
   "https://github.com/google/${_pkgbase}/archive/v${_pkgver}.tar.gz"
   "gtest-${_gtestver}.tar.gz::https://github.com/google/googletest/archive/release-${_gtestver}.tar.gz"
 )
-md5sums=('845b39e4b7681a2ddfd8c7f528299fbb'
+md5sums=('14a532a7538551d5def317bfca41dace'
          '16877098823401d1bf2ed7891d7dce36')
 options=('!debug')
 
